@@ -1,0 +1,68 @@
+
+1. What is a regex (regular expression), and why is it useful in data science?
+
+A regular expression (regex) is a sequence of characters that define a search pattern. it's commonly used to search, replace, extract, validate patterns in a text.
+
+it's also used in data science in cleaning data and extracting information.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+2. Create a regex to validate email addresses.
+
+^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     
+3. What do you know about databases (Definition and types)?
+
+A database is a collection of related data that have meanings and can be recorded.
+     
+Types of databases:
+- traditional database (text or numeric)
+- NOSQL systems (for big data storage and it's used in social media apps)
+- multimedia databases (images, audio, videos)
+- data warehouses
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. What is the difference between foreign key and primary key?
+
+Primary Key: A column or combination of columns that uniquely identifies an entity in a table.
+
+Foreign Key: A column in one table that links to the primary key in another table to establish a relationship between the two tables.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. Difference between RANK and DENSE_RANK?
+
+RANK: Assigns a rank to rows with gaps in ranking if there are ties. For example, if two rows are tied for rank 1, the next rank will be 3.
+
+DENSE_RANK: Similar to RANK but without gaps in the ranking. For example, if two rows are tied for rank 1, the next rank will be 2.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6. What is the difference between WHERE and HAVING clauses?
+
+WHERE: Filters ungrouped data on a specific condition.
+
+HAVING: Same as Where but with grouped data.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7. What is the difference between DELETE and TRUNCATE clauses?
+
+DELETE: Removes specific rows from a table based on a condition.
+
+TRUNCATE: Removes all rows from a table without removing the table.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8. What are the differences between INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN?
+
+INNER JOIN: Returns only matching rows between tables.
+
+LEFT JOIN: Returns all rows from the left table and matching rows from the right table and non-matching rows in the right table will have NULLs.
+
+RIGHT JOIN: Returns all rows from the right table and matching rows from the left table and non-matching rows in the left table will have NULLs.
+
+FULL JOIN: Returns all rows when there is a match in either table and non-matching rows will have NULLs in place of missing data.
